@@ -1,6 +1,7 @@
 {
 	"name": "PL_CosmosDB_Upsert",
 	"properties": {
+		"description": "This pipeline is meant to upsert data into cosmosdb collection",
 		"activities": [
 			{
 				"name": "Copy data1",
