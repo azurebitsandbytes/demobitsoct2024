@@ -1,0 +1,20 @@
+{
+	"name": "8_PL_Failure",
+	"properties": {
+		"activities": [
+			{
+				"name": "Fail",
+				"type": "Fail",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"message": "404",
+					"errorCode": "Error"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2024-06-09T15:31:54Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

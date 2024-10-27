@@ -1,0 +1,42 @@
+{
+	"name": "PL_DatabricksNotebookProcessing",
+	"properties": {
+		"activities": [
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Shared/Oct2024/Processing",
+					"baseParameters": {
+						"dateFolder": {
+							"value": "@pipeline().parameters.dateFolder",
+							"type": "Expression"
+						}
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_ADB_demobits_1",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"parameters": {
+			"dateFolder": {
+				"type": "string",
+				"defaultValue": "20240204"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2024-10-20T16:29:48Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

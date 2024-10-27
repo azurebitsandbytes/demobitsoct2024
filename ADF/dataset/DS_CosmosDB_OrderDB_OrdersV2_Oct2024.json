@@ -1,0 +1,16 @@
+{
+	"name": "DS_CosmosDB_OrderDB_OrdersV2_Oct2024",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_CosmosDB_Orderdb_Oct2024",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "ordersv2"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
