@@ -1,0 +1,87 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "demobitsmay2024"
+		},
+		"LS_ADB_demobits_accessToken": {
+			"value": ""
+		},
+		"LS_ADB_demobits_1_accessToken": {
+			"value": ""
+		},
+		"LS_CosmosDB_OrderDB_connectionString": {
+			"value": ""
+		},
+		"LS_CosmosDB_Orderdb_Oct2024_connectionString": {
+			"value": ""
+		},
+		"LS_SQL_MainDB_password": {
+			"value": ""
+		},
+		"LS_SQL_MasterCardDB_password": {
+			"value": ""
+		},
+		"LS_SQL_OrderDB_password": {
+			"value": ""
+		},
+		"LS_StorageGen2_demobitsmay2024_accountKey": {
+			"value": ""
+		},
+		"LS_ADB_demobits_properties_typeProperties_existingClusterId": {
+			"value": "0615-155628-pwdvjlum"
+		},
+		"LS_ADB_demobits_1_properties_typeProperties_existingClusterId": {
+			"value": "1019-145259-masaj7t2"
+		},
+		"LS_Blob_KVTest_properties_typeProperties_connectionString_secretName": {
+			"value": "demobitsstorageconnstr"
+		},
+		"LS_KV_properties_typeProperties_baseUrl": {
+			"value": "https://demobitskv.vault.azure.net/"
+		},
+		"LS_SQL_MainDB_properties_typeProperties_server": {
+			"value": "demobitsssmay2024.database.windows.net"
+		},
+		"LS_SQL_MainDB_properties_typeProperties_database": {
+			"value": "maindb"
+		},
+		"LS_SQL_MainDB_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"LS_SQL_MasterCardDB_properties_typeProperties_server": {
+			"value": "demobitsssmay2024.database.windows.net"
+		},
+		"LS_SQL_MasterCardDB_properties_typeProperties_database": {
+			"value": "mastercarddb"
+		},
+		"LS_SQL_MasterCardDB_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"LS_SQL_OrderDB_properties_typeProperties_server": {
+			"value": "demobitsss.database.windows.net"
+		},
+		"LS_SQL_OrderDB_properties_typeProperties_database": {
+			"value": "demobitsdb"
+		},
+		"LS_SQL_OrderDB_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"LS_StorageGen2_demobitsmay2024_properties_typeProperties_url": {
+			"value": "https://demobitsadlsgen2.dfs.core.windows.net/"
+		},
+		"TRG_PL_Copy_DynamicFile_properties_2_PL_Copy_DynamicFile_parameters_FileName": {
+			"value": "@triggerBody().fileName"
+		},
+		"TRG_PL_Copy_DynamicFile_properties_typeProperties_scope": {
+			"value": "/subscriptions/411a4b4e-7296-45b5-b7b6-a4fd3954fbbb/resourceGroups/azurebits/providers/Microsoft.Storage/storageAccounts/demobitsadlsgen2"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
